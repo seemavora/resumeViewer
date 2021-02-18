@@ -1,0 +1,54 @@
+<html>
+<link rel="stylesheet" href="Resume.css">
+<center>
+  <h1>Seema Vora</h1>
+  <h3>
+    <img src="profilePic.jpeg" width="400" height="300" alt="Seema's Image" />
+  </h3>
+  <section class="about-me">
+    <br />
+    <h2>About Seema</h2>
+    <p>
+      Seema Vora is a second year software engineering major at San Jose State University.
+      She is the Vice President of the Software and Computer Engineering Society at SJSU, which
+      has over 800 members. In her free time, she loves working on technical side-projects for
+      the club, learning AI/ML, participating in hackathons, and more! She is also a social
+      butterfly and loves spending time with her family and friends.
+    </p>
+    <br />
+  </section>
+  <br />
+  <section class="video-message">
+    <br />
+    <h2>A Message From Seema</h2>
+    <!-- insert video link here -->
+    <br />
+  </section>
+  </br>
+  <section class="learn-more">
+    <br />
+    <h2>Learn More</h2>
+    <p>
+      Seema has worked on a variety of projects, to learn about two of her favorite projects,
+      choose one using the dropdown below.
+    </p>
+    <label for="Projects">Choose a project:</label>
+    <select id="projects" name="projects">
+      <option value="ibm">IBM Good Tech Scholars</option>
+      <option value="twitter">Twitter Hackathon Project</option>
+      <option value="sce">SCE Projects</option>
+    </select>
+    <button id="submit-button" class="float-left submit-button">Learn More</button>
+
+    <script type="text/javascript">
+      document.getElementById("submit-button").onclick = function () {
+        location.href = "MyProj1.html";
+      };
+    </script>
+    <br />
+    <br />
+  </section>
+  <br />
+</center>
+
+</html>

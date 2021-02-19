@@ -1,0 +1,44 @@
+.background {
+  background-color: #add8e6;
+}
+
+h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+.GPA{
+  font-weight: 800;
+  font-size: 20px;
+  background-color: #fff;
+  border: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+th, td {
+  padding: 15px;
+}
+
+th {
+  text-align: left;
+}
+
+table {
+  border-spacing: 5px;
+}
+
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+  background-color: #fff;
+}
+#t01 th {
+  color: white;
+  background-color: black;
+}

@@ -1,0 +1,17 @@
+h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  font-weight: bold;
+  font-size: 40 px
+}
+h2{
+  font-size: 30px;
+}
+.about-proj{
+  background-color: #33a6cc;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px
+}
+
+.links {
+  text-decoration-color: darkslateblue
+}

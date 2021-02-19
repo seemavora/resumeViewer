@@ -40,12 +40,24 @@
     </select>
     <button id="submit-button" class="float-left submit-button">Learn More</button>
 
-    <script type="text/javascript">
-      document.getElementById("submit-button").onclick = function () {
-        location.href = "MyProj1.html";
-      };
-    </script>
+      <script type="text/javascript">
+        document.getElementById("submit-button").onclick = function () {
+          var e = document.getElementById("projects");
+          if (e.value == 'ibm'){
+             location.href = "MyProj1.html";
+          }
+          else if(e.value == 'twitter'){
+            location.href = "MyProj2.html";
+          }else{
+            location.href = "MyProj3.html";
+          }
+        };
+      </script>
     <br />
+    <p>
+      In order to see Seema's course history and unofficial transcript, click the 
+      button below. 
+    </p>
     <br />
   </section>
   <br />

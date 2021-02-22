@@ -12,3 +12,36 @@
   background-color: #80cae2;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
+.submit-button {
+  background-color: #01151b; 
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+
+.transcript-button {
+  background-color: #01151b; 
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+
+.transcript-button:hover {
+  background-color: white; 
+  color: black;
+}
+
+.submit-button:hover {
+  background-color: white; 
+  color: black;
+}
+

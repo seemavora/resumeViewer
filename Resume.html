@@ -21,7 +21,10 @@
   <section class="video-message">
     <br />
     <h2>A Message From Seema</h2>
-    <!-- insert video link here -->
+    <video width="320" height="240" controls>
+      <source src="intro151.mp4" type="video/mp4">
+    </video>
+    <br/>
     <br />
   </section>
   </br>
@@ -58,6 +61,22 @@
       In order to see Seema's course history and unofficial transcript, click the 
       button below. 
     </p>
+    <button id="transcript-button" class="transcript-button">View Transcript</button>
+    <script type="text/javascript">
+      document.getElementById("transcript-button").onclick = function () {
+        var password;
+        var pass =  "frankbutt";
+        password = prompt("Enter Password To View Transcript");
+        if(password == pass){
+          alert('Correct password, click OK to view')
+          location.href = "Transcript.html";
+        }else{
+          alert("Incorrect Password. (HINT: frankbutt)");
+
+        }
+      };
+    </script>
+    <br/>
     <br />
   </section>
   <br />
